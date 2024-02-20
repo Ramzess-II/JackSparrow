@@ -1,0 +1,9 @@
+../Core/MPU6050/I2Cdev.cpp:54:1:I2Cdev::I2Cdev()	16	static
+../Core/MPU6050/I2Cdev.cpp:65:8:static int8_t I2Cdev::readBit(uint8_t, uint8_t, uint8_t, uint8_t*, uint16_t, void*)	40	static
+../Core/MPU6050/I2Cdev.cpp:96:8:static int8_t I2Cdev::readBits(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t*, uint16_t, void*)	40	static
+../Core/MPU6050/I2Cdev.cpp:145:8:static int8_t I2Cdev::readByte(uint8_t, uint8_t, uint8_t*, uint16_t, void*)	32	static
+../Core/MPU6050/I2Cdev.cpp:168:8:static int8_t I2Cdev::readBytes(uint8_t, uint8_t, uint8_t, uint8_t*, uint16_t, void*)	40	static
+../Core/MPU6050/I2Cdev.cpp:228:6:static bool I2Cdev::writeBit(uint8_t, uint8_t, uint8_t, uint8_t, void*)	40	static
+../Core/MPU6050/I2Cdev.cpp:257:6:static bool I2Cdev::writeBits(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, void*)	40	static
+../Core/MPU6050/I2Cdev.cpp:313:6:static bool I2Cdev::writeByte(uint8_t, uint8_t, uint8_t, void*)	32	static
+../Core/MPU6050/I2Cdev.cpp:334:6:static bool I2Cdev::writeBytes(uint8_t, uint8_t, uint8_t, uint8_t*, void*)	48	static

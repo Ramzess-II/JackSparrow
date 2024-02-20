@@ -1,0 +1,38 @@
+../Core/MPU6050/MPU6050.cpp:47:1:MPU6050_Base::MPU6050_Base(uint8_t, void*)	24	static
+../Core/MPU6050/MPU6050.cpp:57:6:void MPU6050_Base::initialize()	16	static
+../Core/MPU6050/MPU6050.cpp:68:6:void MPU6050_Base::setFullScaleAccelRange(uint8_t)	24	static
+../Core/MPU6050/MPU6050.cpp:76:6:bool MPU6050_Base::testConnection()	16	static
+../Core/MPU6050/MPU6050.cpp:86:6:void MPU6050_Base::setSleepEnabled(bool)	24	static
+../Core/MPU6050/MPU6050.cpp:91:6:void MPU6050_Base::setMemoryBank(uint8_t, bool, bool)	24	static
+../Core/MPU6050/MPU6050.cpp:99:6:void MPU6050_Base::setMemoryStartAddress(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:104:9:uint8_t MPU6050_Base::readMemoryByte()	24	static
+../Core/MPU6050/MPU6050.cpp:115:6:void MPU6050_Base::setSlaveAddress(uint8_t, uint8_t)	24	static
+../Core/MPU6050/MPU6050.cpp:126:6:void MPU6050_Base::setI2CMasterModeEnabled(bool)	24	static
+../Core/MPU6050/MPU6050.cpp:136:6:void MPU6050_Base::resetI2CMaster()	24	static
+../Core/MPU6050/MPU6050.cpp:170:6:void MPU6050_Base::setClockSource(uint8_t)	24	static
+../Core/MPU6050/MPU6050.cpp:182:6:void MPU6050_Base::setIntEnabled(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:191:6:void MPU6050_Base::setRate(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:200:6:void MPU6050_Base::setExternalFrameSync(uint8_t)	24	static
+../Core/MPU6050/MPU6050.cpp:212:6:void MPU6050_Base::setDLPFMode(uint8_t)	24	static
+../Core/MPU6050/MPU6050.cpp:224:6:void MPU6050_Base::setFullScaleGyroRange(uint8_t)	24	static
+../Core/MPU6050/MPU6050.cpp:228:6:bool MPU6050_Base::writeProgMemoryBlock(const uint8_t*, uint16_t, uint8_t, uint8_t, bool)	48	static
+../Core/MPU6050/MPU6050.cpp:232:6:bool MPU6050_Base::writeMemoryBlock(const uint8_t*, uint16_t, uint8_t, uint8_t, bool, bool)	64	static
+../Core/MPU6050/MPU6050.cpp:288:6:void MPU6050_Base::setDMPConfig1(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:292:6:void MPU6050_Base::setDMPConfig2(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:297:9:uint8_t MPU6050_Base::getDMPConfig2()	24	static
+../Core/MPU6050/MPU6050.cpp:302:6:void MPU6050_Base::setOTPBankValid(bool)	24	static
+../Core/MPU6050/MPU6050.cpp:311:6:void MPU6050_Base::setMotionDetectionThreshold(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:320:6:void MPU6050_Base::setZeroMotionDetectionThreshold(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:329:6:void MPU6050_Base::setMotionDetectionDuration(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:338:6:void MPU6050_Base::setZeroMotionDetectionDuration(uint8_t)	16	static
+../Core/MPU6050/MPU6050.cpp:348:6:void MPU6050_Base::setFIFOEnabled(bool)	24	static
+../Core/MPU6050/MPU6050.cpp:352:6:void MPU6050_Base::setDMPEnabled(bool)	24	static
+../Core/MPU6050/MPU6050.cpp:362:6:void MPU6050_Base::resetFIFO()	24	static
+../Core/MPU6050/MPU6050.cpp:366:6:void MPU6050_Base::resetDMP()	24	static
+../Core/MPU6050/MPU6050.cpp:376:6:void MPU6050_Base::reset()	24	static
+../Core/MPU6050/MPU6050.cpp:387:9:uint8_t MPU6050_Base::getIntStatus()	24	static
+../Core/MPU6050/MPU6050.cpp:396:10:uint32_t MPU6050_Base::getFIFOTimeout()	16	static
+../Core/MPU6050/MPU6050.cpp:408:10:uint16_t MPU6050_Base::getFIFOCount()	24	static
+../Core/MPU6050/MPU6050.cpp:420:9:int8_t MPU6050_Base::GetCurrentFIFOPacket(uint8_t*, uint8_t)	80	static
+../Core/MPU6050/MPU6050.cpp:453:7:void MPU6050_Base::getFIFOBytes(uint8_t*, uint8_t)	40	static
+../Core/MPU6050/MPU6050.cpp:462:9:uint8_t MPU6050_Base::getOTPBankValid()	24	static
